@@ -18,6 +18,23 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./layouts": {
+      "types": "./dist/layouts.d.ts",
+      "default": "./dist/layouts.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "layouts": [
+        "dist/layouts.d.ts"
+      ]
+    }
+  },
   "files": [
     "dist"
   ],
