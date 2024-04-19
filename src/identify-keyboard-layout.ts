@@ -10,6 +10,7 @@ import type { KeyboardLayoutMap } from './types'
 export function identifyKeyboardLayout(map: KeyboardLayoutMap) {
   const semicolon = map.get('Semicolon')
   const bracketLeft = map.get('BracketLeft')
+  const bracketRight = map.get('BracketRight')
 
   switch (semicolon) {
     case 'ç':
@@ -29,7 +30,7 @@ export function identifyKeyboardLayout(map: KeyboardLayoutMap) {
     case 'ö':
       return bracketLeft === 'å'
         ? 'Finnish' // Finnish and Swedish use the same layout
-        : bracketLeft === 'ü'
+        : bracketRight === '¨'
           ? 'SwissGerman'
           : 'German'
     case 'm':

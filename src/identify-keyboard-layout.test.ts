@@ -16,7 +16,7 @@ test('identifyKeyboardLayout', () => {
       "Danish": "Danish",
       "Finnish": "Finnish",
       "French": "French",
-      "German": "SwissGerman",
+      "German": "German",
       "Italian": "Italian",
       "LatinAmerican": "LatinAmerican",
       "Norwegian": "Norwegian",
