@@ -56,6 +56,7 @@ export const British: KeyboardLayoutMap = new Map([
   ['Semicolon', ';'],
   ['Slash', '/'],
 ])
+
 export const Danish: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', "'"],
@@ -108,6 +109,7 @@ export const Danish: KeyboardLayoutMap = new Map([
   ['Semicolon', 'æ'],
   ['Slash', '-'],
 ])
+
 export const Dvorak: KeyboardLayoutMap = new Map([
   ['Backquote', '`'],
   ['Backslash', '\\'],
@@ -158,6 +160,7 @@ export const Dvorak: KeyboardLayoutMap = new Map([
   ['Semicolon', 's'],
   ['Slash', 'z'],
 ])
+
 export const Finnish: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', "'"],
@@ -210,6 +213,7 @@ export const Finnish: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ö'],
   ['Slash', '-'],
 ])
+
 export const French: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', '`'],
@@ -262,6 +266,7 @@ export const French: KeyboardLayoutMap = new Map([
   ['Semicolon', 'm'],
   ['Slash', '='],
 ])
+
 export const German: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', '#'],
@@ -314,6 +319,7 @@ export const German: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ö'],
   ['Slash', '-'],
 ])
+
 export const Italian: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', 'ù'],
@@ -366,6 +372,7 @@ export const Italian: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ò'],
   ['Slash', '-'],
 ])
+
 export const LatinAmerican: KeyboardLayoutMap = new Map([
   ['Backquote', '|'],
   ['Backslash', '}'],
@@ -418,6 +425,7 @@ export const LatinAmerican: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ñ'],
   ['Slash', '-'],
 ])
+
 export const Norwegian: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', '@'],
@@ -470,6 +478,7 @@ export const Norwegian: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ø'],
   ['Slash', '-'],
 ])
+
 export const Portuguese: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', '\\'],
@@ -522,6 +531,7 @@ export const Portuguese: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ç'],
   ['Slash', '-'],
 ])
+
 export const Slovak: KeyboardLayoutMap = new Map([
   ['Backquote', '\\'],
   ['Backslash', 'ň'],
@@ -574,6 +584,7 @@ export const Slovak: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ô'],
   ['Slash', '-'],
 ])
+
 export const Spanish: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', 'ç'],
@@ -626,6 +637,7 @@ export const Spanish: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ñ'],
   ['Slash', '-'],
 ])
+
 export const Swedish: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', "'"],
@@ -678,6 +690,7 @@ export const Swedish: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ö'],
   ['Slash', '-'],
 ])
+
 export const SwissFrench: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', '$'],
@@ -730,6 +743,7 @@ export const SwissFrench: KeyboardLayoutMap = new Map([
   ['Semicolon', 'é'],
   ['Slash', '-'],
 ])
+
 export const SwissGerman: KeyboardLayoutMap = new Map([
   ['Backquote', '<'],
   ['Backslash', '$'],
@@ -782,6 +796,7 @@ export const SwissGerman: KeyboardLayoutMap = new Map([
   ['Semicolon', 'ö'],
   ['Slash', '-'],
 ])
+
 export const US: KeyboardLayoutMap = new Map([
   ['Backquote', '`'],
   ['Backslash', '\\'],
@@ -832,6 +847,7 @@ export const US: KeyboardLayoutMap = new Map([
   ['Semicolon', ';'],
   ['Slash', '/'],
 ])
+
 export const USInternational: KeyboardLayoutMap = new Map([
   ['Backquote', '`'],
   ['Backslash', '\\'],
