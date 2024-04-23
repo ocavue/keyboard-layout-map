@@ -35,6 +35,8 @@ export function identifyKeyboardLayout(map: KeyboardLayoutMap) {
           : 'German'
     case 'm':
       return 'French'
+    case 's':
+      return 'Dvorak'
   }
 
   return 'US'
