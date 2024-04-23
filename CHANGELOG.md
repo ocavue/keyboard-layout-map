@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ocavue/keyboard-layout-map/compare/v1.0.1...v1.1.0) (2024-04-23)
+
+
+### Features
+
+* add Dvorak layout ([#4](https://github.com/ocavue/keyboard-layout-map/issues/4)) ([453be77](https://github.com/ocavue/keyboard-layout-map/commit/453be7706315d33b63bf8bd3d54cd5a5917d80c7))
+
 ## [1.0.1](https://github.com/ocavue/keyboard-layout-map/compare/v1.0.0...v1.0.1) (2024-04-19)
 
 
