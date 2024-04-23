@@ -30,7 +30,7 @@ const name = await identifyKeyboardLayout(layout)
 //     ^: "US" | "French" | "German" | "LatinAmerican" ...
 ```
 
-Get all supported keyboard layouts (for testing purposes).
+Get all [supported keyboard layouts](https://github.com/ocavue/keyboard-layout-map/tree/master/src/layouts).
 
 ```ts
 import * as layouts from 'keyboard-layout-map/layouts'
