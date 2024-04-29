@@ -1,9 +1,5 @@
 import type { KeyboardLayoutMap } from '../types'
 
-// Run the code below in Chrome devtools to get the current keyboard layout map.
-//
-// console.log(JSON.stringify([...Object.entries(Object.fromEntries(await navigator.keyboard.getLayoutMap()))].sort()));
-
 export const British: KeyboardLayoutMap = new Map([
   ['Backquote', '\\'],
   ['Backslash', '#'],

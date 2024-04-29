@@ -1,3 +1,7 @@
+// Run the code below in Chrome devtools to get the current keyboard layout map.
+//
+// console.log(JSON.stringify([...((await navigator?.keyboard?.getLayoutMap())?.entries() ?? [])].sort()))
+
 export { British } from './British'
 export { Danish } from './Danish'
 export { Dvorak } from './Dvorak'
