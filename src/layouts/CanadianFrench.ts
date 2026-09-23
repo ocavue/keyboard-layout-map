@@ -1,3 +1,4 @@
+// Data source: https://kbdlayout.info/KBDCA
 import type { KeyboardLayoutMap } from '../types'
 
 export const CanadianFrench: KeyboardLayoutMap = new Map([

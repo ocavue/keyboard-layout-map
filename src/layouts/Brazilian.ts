@@ -1,3 +1,4 @@
+// Data source: https://kbdlayout.info/KBDBR
 import type { KeyboardLayoutMap } from '../types'
 
 export const Brazilian: KeyboardLayoutMap = new Map([
