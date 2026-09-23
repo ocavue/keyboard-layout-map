@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/ocavue/keyboard-layout-map/compare/v1.1.0...v1.1.1) (2026-09-23)
+
+
+### Miscellaneous Chores
+
+* release 1.1.1 ([9c40110](https://github.com/ocavue/keyboard-layout-map/commit/9c40110459d0574c2f0cd2f63a41405a1a7ffeac))
+
 ## [1.1.0](https://github.com/ocavue/keyboard-layout-map/compare/v1.0.1...v1.1.0) (2024-04-23)
 
 
