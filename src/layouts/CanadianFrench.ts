@@ -1,6 +1,6 @@
-// Data source: https://kbdlayout.info/KBDCA
 import type { KeyboardLayoutMap } from '../types'
 
+// Data source: https://kbdlayout.info/KBDCA
 export const CanadianFrench: KeyboardLayoutMap = new Map([
   ['Backquote', '#'],
   ['Backslash', '<'],

@@ -1,6 +1,6 @@
-// Data source: https://kbdlayout.info/KBDBR
 import type { KeyboardLayoutMap } from '../types'
 
+// Data source: https://kbdlayout.info/KBDBR
 export const Brazilian: KeyboardLayoutMap = new Map([
   ['Backquote', "'"],
   ['Backslash', ']'],
