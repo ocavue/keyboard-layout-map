@@ -5,10 +5,7 @@ import * as layouts from './layouts'
 
 test('identifyKeyboardLayout', () => {
   const snapshot = Object.fromEntries(
-    Object.entries(layouts).map(([name, map]) => [
-      name,
-      identifyKeyboardLayout(map),
-    ]),
+    Object.entries(layouts).map(([name, map]) => [name, identifyKeyboardLayout(map)]),
   )
   expect(snapshot).toMatchInlineSnapshot(`
     {
