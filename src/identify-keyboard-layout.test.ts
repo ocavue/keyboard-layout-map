@@ -9,7 +9,9 @@ test('identifyKeyboardLayout', () => {
   )
   expect(snapshot).toMatchInlineSnapshot(`
     {
-      "British": "US",
+      "Brazilian": "Brazilian",
+      "British": "British",
+      "CanadianFrench": "CanadianFrench",
       "Danish": "Danish",
       "Dvorak": "Dvorak",
       "Finnish": "Finnish",

@@ -2,7 +2,9 @@
 //
 // console.log(JSON.stringify([...((await navigator?.keyboard?.getLayoutMap())?.entries() ?? [])].sort()))
 
+export { Brazilian } from './Brazilian'
 export { British } from './British'
+export { CanadianFrench } from './CanadianFrench'
 export { Danish } from './Danish'
 export { Dvorak } from './Dvorak'
 export { Finnish } from './Finnish'
