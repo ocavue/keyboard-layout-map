@@ -41,6 +41,7 @@
   ],
   "scripts": {
     "build": "tsdown",
+    "build:layouts": "node scripts/build-layout-from-kbdlayout-xml.mjs",
     "dev": "tsdown --watch",
     "lint": "pnpm run lint:eslint && pnpm run lint:oxfmt && pnpm run lint:knip",
     "lint:oxfmt": "oxfmt --check",

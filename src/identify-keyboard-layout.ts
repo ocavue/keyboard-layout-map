@@ -11,10 +11,15 @@ export function identifyKeyboardLayout(map: KeyboardLayoutMap) {
   const semicolon = map.get('Semicolon')
   const bracketLeft = map.get('BracketLeft')
   const bracketRight = map.get('BracketRight')
+  const slash = map.get('Slash')
+  const backquote = map.get('Backquote')
+  const backslash = map.get('Backslash')
 
   switch (semicolon) {
     case 'ç':
-      return 'Portuguese'
+      // Portuguese (Portugal): BracketLeft is º
+      // Brazilian (ABNT2): BracketLeft is ´ (acute dead key)
+      return bracketLeft === 'º' ? 'Portuguese' : 'Brazilian'
     case 'é':
       return 'SwissFrench'
     case 'ø':
@@ -37,6 +42,16 @@ export function identifyKeyboardLayout(map: KeyboardLayoutMap) {
       return 'French'
     case 's':
       return 'Dvorak'
+  }
+
+  // Canadian French keeps Semicolon as ';' (like US) but puts é on Slash.
+  if (slash === 'é') {
+    return 'CanadianFrench'
+  }
+
+  // British: Backquote is '\' or Backslash is '#' (see British.ts).
+  if (backquote === '\\' || backslash === '#') {
+    return 'British'
   }
 
   return 'US'
