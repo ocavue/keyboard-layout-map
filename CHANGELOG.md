@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ocavue/keyboard-layout-map/compare/v1.1.1...v1.2.0) (2026-09-23)
+
+
+### Features
+
+* add Brazilian and Canadian French layouts ([#10](https://github.com/ocavue/keyboard-layout-map/issues/10)) ([18baaec](https://github.com/ocavue/keyboard-layout-map/commit/18baaecc8f20ce8349ed889a5412915df6319e91))
+
 ## [1.1.1](https://github.com/ocavue/keyboard-layout-map/compare/v1.1.0...v1.1.1) (2026-09-23)
 
 
